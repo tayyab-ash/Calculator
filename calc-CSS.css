@@ -1,0 +1,89 @@
+        .container {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .parent {
+            height: 600px;
+            width: 800px;
+            /* background-color: var(--secondaryC); */
+            /* background-color: azure; */
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            flex-direction: column;
+        }
+
+        input{
+            font-weight: bold;
+            vertical-align: bottom;
+            font-size: xx-large;
+            color: white;
+            outline: none;
+            margin-top: 50px;
+            border: none;
+            height: 200px;
+            width: 700px;
+            padding-top: 60px;
+            padding-left: 40px;
+            text-indent: 5px;
+            border-radius: 15px 15px 0 0;
+            background-color: #303136;
+            /* background-color: var(--secondaryC); */
+        }
+
+        .buttons {
+            display: flex;
+            height: 400px;
+            width: 700px;
+            color: white;
+            background-color: var(--secondaryC);
+            border-radius: 0 0 15px 15px;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        td{
+            display: inline;
+            margin: 5px;
+            /* padding: 5px; */
+        }
+        
+        tr{
+            display: block;
+            padding: 0px;
+            margin: 10px;
+        }
+        button{
+            /* border: 2px solid black; */
+            color: white;
+            font-weight: bold;
+            font-size: x-large;
+            border: none;
+            outline: none;
+            border-radius: 10px;
+            width: 100px;
+            height: 60px;
+            /* background-color: var(--primaryC); */
+            
+        }
+        .symbols button{
+            background-color: var(--primaryC);
+        }
+
+        .numbers button{
+            background-color: #303136;
+        }
+
+        .symbols{
+            margin-left: 20px;
+        }
+
+        .symbols img{
+            margin-top: 5px;
+        }
